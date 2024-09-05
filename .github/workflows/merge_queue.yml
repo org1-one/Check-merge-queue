@@ -1,0 +1,11 @@
+on:
+  merge_group:
+
+jobs:
+  build:
+   runs-on: ubuntu-latest
+   name: sample build
+   steps:
+     - run: echo "success"
+   
+  
